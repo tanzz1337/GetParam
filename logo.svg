@@ -1,0 +1,79 @@
+<svg width="680" height="320" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" style="background:#0a0a0a">
+
+  <!-- Outer magnifier ring -->
+  <circle cx="340" cy="130" r="88" fill="none" stroke="#42be65" stroke-width="2"/>
+  <!-- Inner ring -->
+  <circle cx="340" cy="130" r="76" fill="none" stroke="#1e1e1e" stroke-width="0.5"/>
+  <!-- Dark fill -->
+  <circle cx="340" cy="130" r="75" fill="#0d0d0d"/>
+
+  <!-- Param lines inside magnifier -->
+  <rect x="276" y="90"  width="60" height="6" rx="2" fill="#1a1a1a"/>
+  <rect x="344" y="90"  width="32" height="6" rx="2" fill="#1a1a1a"/>
+
+  <!-- Found line green -->
+  <rect x="276" y="104" width="42" height="6" rx="2" fill="#0d2e18"/>
+  <rect x="344" y="104" width="50" height="6" rx="2" fill="#1e4a28"/>
+  <circle cx="268" cy="107" r="3.5" fill="#42be65"/>
+
+  <rect x="276" y="118" width="55" height="6" rx="2" fill="#1a1a1a"/>
+  <rect x="344" y="118" width="28" height="6" rx="2" fill="#1a1a1a"/>
+
+  <!-- Found line cyan -->
+  <rect x="276" y="132" width="38" height="6" rx="2" fill="#0a2233"/>
+  <rect x="344" y="132" width="44" height="6" rx="2" fill="#0e3347"/>
+  <circle cx="268" cy="135" r="3.5" fill="#33b1ff"/>
+
+  <rect x="276" y="146" width="62" height="6" rx="2" fill="#1a1a1a"/>
+  <rect x="344" y="146" width="24" height="6" rx="2" fill="#1a1a1a"/>
+
+  <!-- Found line green -->
+  <rect x="276" y="160" width="44" height="6" rx="2" fill="#0d2e18"/>
+  <rect x="344" y="160" width="38" height="6" rx="2" fill="#1e4a28"/>
+  <circle cx="268" cy="163" r="3.5" fill="#42be65"/>
+
+  <!-- Scan line -->
+  <line x1="265" y1="125" x2="415" y2="125"
+        stroke="#42be65" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.3"/>
+
+  <!-- Magnifier handle -->
+  <line x1="407" y1="197" x2="440" y2="230"
+        stroke="#2a2a2a" stroke-width="8" stroke-linecap="round"/>
+  <line x1="407" y1="197" x2="440" y2="230"
+        stroke="#42be65" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Horizontal rule -->
+  <line x1="200" y1="248" x2="480" y2="248" stroke="#1e1e1e" stroke-width="0.5"/>
+
+  <!-- Wordmark -->
+  <text x="340" y="270"
+        text-anchor="middle"
+        font-family="'Courier New',monospace"
+        font-size="22" font-weight="500"
+        letter-spacing="6" fill="#f4f4f4">GETPARAM</text>
+
+  <!-- Tagline -->
+  <text x="340" y="290"
+        text-anchor="middle"
+        font-family="'Courier New',monospace"
+        font-size="10" letter-spacing="3"
+        fill="#42be65">HIDDEN PARAMETER DISCOVERY</text>
+
+  <!-- Side lines -->
+  <line x1="80"  y1="268" x2="220" y2="268" stroke="#1a1a1a" stroke-width="0.5"/>
+  <circle cx="82"  cy="268" r="2" fill="#2a2a2a"/>
+  <circle cx="90"  cy="268" r="1.5" fill="#1a1a1a"/>
+  <line x1="460" y1="268" x2="600" y2="268" stroke="#1a1a1a" stroke-width="0.5"/>
+  <circle cx="598" cy="268" r="2" fill="#2a2a2a"/>
+  <circle cx="590" cy="268" r="1.5" fill="#1a1a1a"/>
+
+  <!-- Version tag -->
+  <rect x="305" y="300" width="70" height="16" rx="4"
+        fill="#0d0d0d" stroke="#1e1e1e" stroke-width="0.5"/>
+  <text x="340" y="312"
+        text-anchor="middle"
+        font-family="'Courier New',monospace"
+        font-size="9" letter-spacing="1.5"
+        fill="#555">v 1.0.0</text>
+
+</svg>

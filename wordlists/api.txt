@@ -1,0 +1,94 @@
+# GetParam Wordlist — api.txt
+# Parameter khusus REST API modern
+
+# ── REST Standard ─────────────────────────────────────────────────────
+fields
+attributes
+relationships
+included
+links
+errors
+jsonapi
+sparse
+compound
+
+# ── GraphQL ───────────────────────────────────────────────────────────
+operationName
+variables
+extensions
+query
+mutation
+subscription
+introspection
+
+# ── Versioning ────────────────────────────────────────────────────────
+v1
+v2
+v3
+v4
+api_version
+revision
+build
+
+# ── Pagination Cursor-based ───────────────────────────────────────────
+after
+before
+first
+last
+cursor
+page_token
+next_token
+continuation_token
+
+# ── Response shaping ─────────────────────────────────────────────────
+include
+exclude
+fields
+embed
+expand
+select
+omit
+mask
+projection
+populate
+depth
+recursive
+
+# ── Batch & Async ─────────────────────────────────────────────────────
+batch
+bulk
+async
+sync
+background
+queue
+job_id
+task_id
+correlation_id
+idempotency_key
+request_id
+
+# ── Rate Limit & Quota ────────────────────────────────────────────────
+rate_limit
+quota
+throttle
+burst
+concurrency
+
+# ── SDK & Client ──────────────────────────────────────────────────────
+sdk
+client_version
+platform
+device
+os
+app_id
+app_version
+build_number
+
+# ── Telemetry & Tracing ───────────────────────────────────────────────
+trace_id
+span_id
+x_request_id
+x_correlation_id
+x_trace_id
+x_b3_traceid
+x_b3_spanid
